@@ -20,7 +20,7 @@ body {
     border-bottom: 1px solid #bfbfbf;
 }
 .page-width {
-    width: 1268px;
+    width: 1300px;
     margin: 0px auto;
 }
 #topnav-logo {
@@ -214,3 +214,61 @@ body {
  	bottom:0;
  	width: 100%;
 }
+
+#videos {
+    background-color: transparent;
+    width: 70%;
+    height: 100px;
+}
+
+#vid-title {
+    margin-top: 5.5px;
+    padding: 5.5px 14px 12px 10px;
+    float: left;
+    font-size: 24px;
+    font-family: Helvetica, Arial, sans-serif;
+    color: dimgray;
+    font-weight: 400; 
+    position:absolute;
+}
+
+#vid-menu a {
+    text-decoration: none;
+    color: white;
+}
+
+#vid-menu {
+    float: left;
+    padding: 5.5px 14px 12px 10px;
+    width: 980px;
+    position: absolute;
+}
+
+
+#vid1 {
+    background-color: white;
+    width: 400px;
+    height: 500px;
+    margin-top: 50px;
+    float: left;
+    
+}
+
+#vid2 {
+    background-color: white;
+    width: 550px;
+    height: 225px;
+    margin-top: 50px;
+    float: right;
+    
+    
+}
+
+#vid3 {
+    background-color: white;
+    width: 550px;
+    height: 225px;
+    margin-top: 25px;
+    float: right;
+}
+
