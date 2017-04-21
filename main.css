@@ -77,3 +77,53 @@ body {
     position: relative;
     top: 7px;
 }
+
+.fa {
+    padding: 10px;
+    text-decoration: none;
+    float: right;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    color: white;
+}
+
+.fa-twitter {
+    color: white;
+}
+
+.fa-youtube {
+    color: white;
+}
+
+.fa-envelope {
+    color: white;
+}
+
+.fa-facebook:hover {
+    color: darkblue;
+}
+
+.fa-twitter:hover {
+	color:#00aced;
+}
+
+.fa-youtube:hover{
+	color:#e52d27;
+}
+
+.fa-envelope:hover{
+    color:limegreen;
+}
+
+.socialmedia{
+ 	overflow: hidden;
+ 	background-color: transparent;
+ 	position: fixed;
+ 	bottom:0;
+ 	width: 100%;
+}
