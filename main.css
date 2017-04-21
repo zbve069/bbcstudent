@@ -78,6 +78,41 @@ body {
     top: 7px;
 }
 
+#bottomnav {
+    background-color: #52294d;
+    width: 100%;
+    height: 100px;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+#bottomnav-title {
+    float: left;
+}
+
+#bottomnav-menu {
+    float: left;
+    
+}
+
+#bottomnav-menu li {
+    list-style-type: none;
+    font-weight: 600;
+    font-size: 13px;
+    padding: 13px 20px 12px 20px;
+    border-right: 1px solid #666666;
+    float: left;
+}
+#bottomnav-menu ul li span {
+    position: relative;
+    top: 1px;
+    padding-left: 5px;
+}  
+
 .fa {
     padding: 10px;
     text-decoration: none;
