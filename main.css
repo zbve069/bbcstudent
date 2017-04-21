@@ -18,23 +18,29 @@ body {
     background-color: white;
     width: 100%;
     height: 41px;
+    border-bottom: 1px solid #bfbfbf;
 }
 .page-width {
     width: 1268px;
     margin: 0px auto;
 }
 #topnav-logo {
-    padding: 5.5px 14px 2px 10px;
+    padding: 5.5px 14px 12px 10px;
     float: left;
-    border-right: 1px solid #666666;
+    border-right: 1px solid #bfbfbf;
 }
 #topnav-signin {
     font-stretch: semi-expanded;
     font-size: 13px;
     font-weight: 600;
-    padding: 13px 20px 12px 20px;
-    border-right: 1px solid #666666;
+    padding: 10px 20px 10px 20px;
+    border-right: 1px solid #bfbfbf;
     float: left;
+    background-color: white;    
+}
+
+#topnav-signin:hover {
+    border-bottom: 3px solid #005ce6;   
 }
 .fa-user-circle {
     position: relative;
@@ -48,14 +54,46 @@ body {
     font-weight: 600;
     font-size: 13px;
     padding: 13px 20px 12px 20px;
-    border-right: 1px solid #666666;
+    border-right: 1px solid #bfbfbf;
     float: left;
 }
-#topnav-menu ul li span {
-    position: relative;
-    top: 1px;
-    padding-left: 5px;
+
+.news:hover {
+    border-bottom: 3px solid #cc0000;
 }
+
+.sport:hover {
+    border-bottom: 3px solid #ffff00;
+}
+
+.weather:hover {
+    border-bottom: 3px solid #66ccff;
+}
+
+.iplayer:hover {
+    border-bottom: 3px solid #ff3399;
+}
+
+.tv:hover {
+    border-bottom: 3px solid #000000;
+}
+
+.radio:hover {
+    border-bottom: 3px solid #000000;
+}
+
+.cbbc:hover {
+    border-bottom: 3px solid #66ff66;
+}
+
+.student:hover {
+    border-bottom: 3px solid #660066;
+}
+
+.more:hover {
+    border-bottom: 3px solid #000000;
+}
+
 #topnav-search {
     float: left;
     padding: 0px 0px 2px 18px;
@@ -113,30 +151,33 @@ body {
     padding-left: 5px;
 }  
 
-.fa {
+
+.fa-facebook {
+    color: white;
     padding: 10px;
     text-decoration: none;
     float: right;
 }
 
-.fa:hover {
-    opacity: 0.7;
-}
-
-.fa-facebook {
-    color: white;
-}
-
 .fa-twitter {
     color: white;
+    padding: 10px;
+    text-decoration: none;
+    float: right;
 }
 
 .fa-youtube {
     color: white;
+    padding: 10px;
+    text-decoration: none;
+    float: right;
 }
 
 .fa-envelope {
     color: white;
+    padding: 10px;
+    text-decoration: none;
+    float: right;
 }
 
 .fa-facebook:hover {
