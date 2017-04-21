@@ -24,7 +24,7 @@ body {
     margin: 0px auto;
 }
 #topnav-logo {
-    padding: 5.5px 14px 2px 0px;
+    padding: 5.5px 14px 2px 10px;
     float: left;
     border-right: 1px solid #666666;
 }
@@ -54,7 +54,7 @@ body {
 #topnav-menu ul li span {
     position: relative;
     top: 1px;
-    padding-left: 57px
+    padding-left: 5px;
 }
 #topnav-search {
     float: left;
@@ -67,6 +67,7 @@ body {
     height: 24px;
     width: 143px;
     font-weight: 600;
+    font-size: 13px;
     color: black;
     background-color: #e4e4e4;
     border: none;
@@ -75,5 +76,4 @@ body {
 .fa-search {
     position: relative;
     top: 7px;
-    padding-right: 1px;
 }
