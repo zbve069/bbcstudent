@@ -449,3 +449,27 @@ body {
     width: 980px;
     position: absolute;
 }
+
+#universities {
+    background-color: white;
+    width: 550px;
+    height: 225px;
+    margin-top: 50px;
+    float: left; 
+}
+
+#apply {
+    background-color: white;
+    width: 550px;
+    height: 225px;
+    margin-top: 50px;
+    float: left; 
+}
+
+#how {
+    background-color: white;
+    width: 550px;
+    height: 225px;
+    margin-top: 50px;
+    float: left; 
+}
