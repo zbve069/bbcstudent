@@ -194,13 +194,22 @@ body {
     position: absolute;
 }
 
+
 #vid1 {
     background-color: white;
     width: 400px;
     height: 500px;
     margin-top: 50px;
     float: left;
-    
+    position: relative;
+}
+
+#vid1:hover .fade1 {
+  opacity: 0.3;
+}
+
+#vid1:hover .middle1 {
+  opacity: 1;
 }
 
 #vid2 {
@@ -208,7 +217,16 @@ body {
     width: 550px;
     height: 225px;
     margin-top: 50px;
-    float: right;   
+    float: right;
+    position: relative;
+}
+
+#vid2:hover .fade2 {
+  opacity: 0.3;
+}
+
+#vid2:hover .middle2 {
+  opacity: 1;
 }
 
 #vid3 {
@@ -217,6 +235,166 @@ body {
     height: 225px;
     margin-top: 25px;
     float: right;
+    position: relative;
+}
+
+#vid3:hover .fade3 {
+  opacity: 0.3;
+}
+
+#vid3:hover .middle3 {
+  opacity: 1;
+}
+
+.middle1 {
+    opacity: 0;
+    position: absolute;
+    margin-top: -250px;
+}
+
+.middle2 {
+    opacity: 0;
+    position: absolute;
+}
+
+.middle3 {
+    opacity: 0;
+    position: absolute;
+}
+
+.watch {
+  background-color: #52294d;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+}
+
+#thumb1 {
+    width: 400px;
+    height: 250px;
+    background-color: aliceblue;
+    position: relative;
+}
+
+#thumb1 img {
+    width: 100%;
+    opacity: 1;
+    display: block;
+    height: auto;
+    backface-visibility: hidden;
+}
+
+#thumb2 {
+    width: 250px;
+    height: 225px;
+    background-color: aliceblue;
+    float: left;
+    position: relative;
+}
+
+#thumb2 img {
+    width: 100%;
+    opacity: 1;
+    display: block;
+    height: auto;
+    backface-visibility: hidden;
+}
+
+#thumb3 {
+    width: 250px;
+    height: 225px;
+    background-color: aliceblue;
+    float: left;
+    position: relative;
+}
+
+#thumb3 img {
+    width: 100%;
+    opacity: 1;
+    display: block;
+    height: auto;
+    backface-visibility: hidden;
+}
+
+
+#title1 {
+    width: 400px;
+    height: 70px;
+    color: black;
+    text-align: center;
+    font-size: 30px;
+    padding-top: 10px;
+    font-weight: bold;
+    opacity: 1;
+    display: block;
+    backface-visibility: hidden;
+}
+
+#title2 {
+    width: 300px;
+    height: 70px;
+    color: black;
+    text-align: center;
+    font-size: 25px;
+    padding-top: 10px;
+    font-weight: bold;
+    float: right;
+    opacity: 1;
+    display: block;
+    backface-visibility: hidden;
+}
+
+#title3 {
+    width: 300px;
+    height: 70px;
+    color: black;
+    text-align: center;
+    font-size: 25px;
+    padding-top: 10px;
+    font-weight: bold;
+    float: right;
+    opacity: 1;
+    display: block;
+    backface-visibility: hidden;
+}
+
+#desc1 {
+    width: 400px;
+    height: 20px;
+    color: dimgray;
+    text-align: center;
+    font-size: 18px;
+    padding-top: 10px;
+    margin-top: 135px;
+    opacity: 1;
+    display: block;
+    backface-visibility: hidden;
+}
+
+#desc2 {
+    width: 300px;
+    height: 20px;
+    color: dimgray;
+    text-align: center;
+    font-size: 15px;
+    margin-top: 123px;
+    float: right;
+    opacity: 1;
+    display: block;
+    backface-visibility: hidden;
+}
+
+#desc3 {
+    width: 300px;
+    height: 20px;
+    color: dimgray;
+    text-align: center;
+    font-size: 15px;
+    margin-top: 123px;
+    float: right;
+    opacity: 1;
+    display: block;
+    backface-visibility: hidden;
 }
 
 #vid4 {
@@ -380,13 +558,13 @@ body {
     margin-top: 20px;
 }
 
-#disc-title a {
+#disc-title p {
     text-decoration: none;
     color: white;
     font-size: 30px;
 }
 
-#disc-title {
+#disc-title p {
     padding-top: 75px;
     text-align-last: center;
 }
@@ -404,7 +582,7 @@ body {
     font-size: 20px;
 }
 
-#box-title a {
+#box-title p {
     text-decoration: none;
     color: white;
 }
@@ -415,10 +593,11 @@ body {
     font-size: 30px;
 }
 
-#click a {
+#click p {
     text-decoration: none;
     color: white;
 }
+
 
 #guideline {
     background-color: transparent;
