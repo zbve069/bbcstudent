@@ -169,17 +169,7 @@ body {
     width: 990px;
     height: 100px;
     float: left;
-}
-
-#vid-title {
-    margin-top: 5.5px;
-    padding: 5.5px 14px 12px 10px;
-    float: left;
-    font-size: 24px;
-    font-family: Helvetica, Arial, sans-serif;
-    color: dimgray;
-    font-weight: 400; 
-    position:absolute;
+    margin-top: 50px;
 }
 
 #vid-menu a {
@@ -189,9 +179,11 @@ body {
 
 #vid-menu {
     float: left;
-    padding: 5.5px 14px 12px 10px;
+    padding: 5.5px 18px 12px 10px;
     width: 980px;
+    margin-top: -30px;
     position: absolute;
+    border-right: 2px solid #A9A9A9;
 }
 
 
@@ -199,13 +191,13 @@ body {
     background-color: white;
     width: 400px;
     height: 500px;
-    margin-top: 50px;
+    margin-top: 0px;
     float: left;
     position: relative;
 }
 
 #vid1:hover .fade1 {
-  opacity: 0.3;
+  opacity: 0.5;
 }
 
 #vid1:hover .middle1 {
@@ -216,13 +208,13 @@ body {
     background-color: white;
     width: 550px;
     height: 225px;
-    margin-top: 50px;
+    margin-top: 0px;
     float: right;
     position: relative;
 }
 
 #vid2:hover .fade2 {
-  opacity: 0.3;
+  opacity: 0.5;
 }
 
 #vid2:hover .middle2 {
@@ -239,11 +231,30 @@ body {
 }
 
 #vid3:hover .fade3 {
-  opacity: 0.3;
+  opacity: 0.5;
 }
 
 #vid3:hover .middle3 {
   opacity: 1;
+}
+
+#button {
+    background-color: #52294d;
+    width: 250px;
+    height: 50px;
+    margin-top: 20px;
+    float: right;
+    position: relative;
+}
+
+#button:hover {
+    opacity: .7;
+}
+
+#morev {
+    text-align: center;
+    font-size: 24px;
+    padding-top: 10px;  
 }
 
 .middle1 {
@@ -303,7 +314,6 @@ body {
 #thumb3 {
     width: 250px;
     height: 225px;
-    background-color: aliceblue;
     float: left;
     position: relative;
 }
@@ -400,7 +410,7 @@ body {
 #vid4 {
     background-color: white;
     width: 300px;
-    height: 450px;
+    height: 200px;
     margin-top: 50px;
     margin-left: 5px;
     float: left;
@@ -408,34 +418,51 @@ body {
 
 #vid5 {
     background-color: white;
-    width: 300px;
-    height: 450px;
+    width: 400px;
+    height: 400px;
+    padding: 10;
     margin-top: 50px;
-    margin-left: 15px;
-    float: right;
+    margin-left: 25px;
+    float: left;
 }
 
 #vid6 {
     background-color: white;
-    width: 300px;
-    height: 200px;
-    margin-top: 50px;
-    margin-left: 10px;
-    margin-right: 10px;
-    padding: 10px;
-    float: right;
+    width: 600px;
+    height: 182px;
+    padding: 10;
+    margin-top: 20px;
+    margin-left: 25px;
+    float: left;
 }
-
 #vid7 {
     background-color: white;
     width: 300px;
     height: 200px;
-    margin-top: 10px;
-    margin-left: 10px;
-    margin-right: 10px;
-    padding: 10px;
+    margin-top: -200px;
+    margin-left: 5px;
+    float: left;
+    
+}
+
+#vid77 {
+    background-color: white;
+    width: 200px;
+    height: 200px;
+    margin-top: 50px;
+    margin-right: 5px;
     float: right;
 }
+
+#vid777 {
+    background-color: white;
+    width: 395px;
+    height: 200px;
+    margin-top: 50px;
+    margin-right: 25px;
+    float: right;
+}
+
 
 #vid8 {
     background-color: white;
@@ -451,30 +478,54 @@ body {
     width: 300px;
     height: 450px;
     margin-top: 50px;
-    margin-left: 15px;
-    float: right;
+    margin-left: 25px;
+    float: left;
 }
 
 #vid10 {
     background-color: white;
     width: 300px;
-    height: 200px;
+    height: 250px;
     margin-top: 50px;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 25px;
     padding: 10px;
-    float: right;
+    float: left;
 }
 
 #vid11 {
     background-color: white;
-    width: 300px;
-    height: 200px;
-    margin-top: 10px;
-    margin-left: 10px;
-    margin-right: 10px;
+    width: 370px;
+    height: 250px;
+    margin-top: 50px;
+    margin-right: 5px;
     padding: 10px;
-    float: right;
+    float:right;
+}
+
+#vid12 {
+    background-color: white;
+    width: 720px;
+    height: 142px;
+    margin-top: 20px;
+    margin-left: 25px;
+    padding: 10px;
+    float:left;
+}
+
+
+
+#videos1 {
+    background-color: transparent;
+    width: 1400px;
+    height: 100px;
+    float: left;
+}
+
+#videos2 {
+    background-color: transparent;
+    width: 1400px;
+    height: 100px;
+    float: left;
 }
 
 #rightbar {
@@ -486,18 +537,19 @@ body {
 }
 
 #socialmedia {
-    background-color: aquamarine;
+    background-image: url(phone.jpg);
     width: 350px;
     height: 100px;   
 }
 
 #sm-title {
-    padding-top: 20px;
-    width: 100px;
-    padding-left: 20px;
-    font-size: 20px;
+    padding-top: 5px;
+    width: 350px;
+    text-align: center;
+    font-size: 30px;
     display: inline-block;
     color: white;
+    margin-top: 5px;
 }
 .fa-facebook {
     color: white;
@@ -511,6 +563,7 @@ body {
     padding: 10px;
     text-decoration: none;
     float: right;
+    opacity: 1;
 }
 
 .fa-youtube {
@@ -518,6 +571,7 @@ body {
     padding: 10px;
     text-decoration: none;
     float: right;
+    opacity: 1;
 }
 
 .fa-envelope {
@@ -525,37 +579,42 @@ body {
     padding: 10px;
     text-decoration: none;
     float: right;
+    opacity: 1;
 }
 
 .fa-facebook:hover {
-    color: darkblue;
+    opacity: .6;
 }
 
 .fa-twitter:hover {
-	color:#00aced;
+	opacity: .6;
 }
 
 .fa-youtube:hover{
-	color:#e52d27;
+	opacity: .6;
 }
 
 .fa-envelope:hover{
-    color:limegreen;
+    opacity: .6;
 }
 
 #logos {
  	background-color: transparent;
- 	width: 230px;
     display: inline-block;
-    float: right;
-    padding-top: 25px;
+    width: 215px;
+    margin-left: 65px;
 }
 
 #discussion {
-    background-color: pink;
+    background-image: url(convo.jpg);
     width: 350px;
     height: 200px;
-    margin-top: 20px;
+    margin-top: 25px;
+    backface-visibility: hidden;
+}
+
+.ibox:hover #discussion {
+    opacity: 0.6;
 }
 
 #disc-title p {
@@ -565,37 +624,78 @@ body {
 }
 
 #disc-title p {
-    padding-top: 75px;
+    padding-top: 110px;
     text-align-last: center;
 }
 
+.middle4 {
+    position: absolute;
+    margin-left: 232px;
+    margin-top: 0px;
+    opacity: 0;    
+}
+
+.middle5 {
+    position: absolute;
+    margin-left: 196px;
+    margin-top: 0px;
+    opacity: 0;    
+}
+
+.uni:hover #sugbox {
+    opacity: 0.6;
+}
+
+.uni:hover .middle5 {
+    opacity: 1;
+    z-index: 1;
+}
+
+.ibox:hover .middle4 {
+    opacity: 1;
+    z-index: 1;
+}
+
+.interact {
+  background-color: #52294d;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+}
+
+.involve {
+  background-color: #52294d;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+}
+
 #sugbox {
-    background-color: mediumpurple;
+    background-image: url(sug.jpg);
     width: 350px;
     height: 170px;
-    margin-top: 20px;
+    margin-top: 25px;
 }
 
-#box-title {
-    text-align: center;
-    padding-top: 20px;
-    font-size: 20px;
+#sugbox:hover {
+  opacity: 0.6;
 }
 
-#box-title p {
-    text-decoration: none;
-    color: white;
-}
 
 #click {
     text-align: center;
-    padding-top: 20px;
+    padding-top: 95px;
     font-size: 30px;
 }
 
 #click p {
     text-decoration: none;
     color: white;
+}
+
+#content2 {
+    margin-top: 450px;
+    height: 540px;
 }
 
 
