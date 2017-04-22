@@ -652,3 +652,45 @@ body {
     margin-top: 50px;
     float: left; 
 }
+
+#vid1-title {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 40px;
+    float: left;
+    color: black; 
+    display: block;
+}
+
+#vid1-video {
+    margin-top: 50px;
+    margin-left: 50px;
+    display:block;
+    float:left;
+}
+
+#vid1-content {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    float: right;
+}
+
+#vid2-title {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 40px;
+    float: left;
+    color: black;
+    display: block;
+}
+
+#vid2-video {
+    margin-top: 50px;
+    margin-left: 50px;
+    display:block;
+    float:left;
+}
+
+#vid2-content {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    float: right;
+}
