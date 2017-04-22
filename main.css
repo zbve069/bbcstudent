@@ -234,6 +234,14 @@ body {
     height: 100px;   
 }
 
+#sm-title {
+    padding-top: 20px;
+    width: 100px;
+    padding-left: 20px;
+    font-size: 20px;
+    display: inline-block;
+    color: white;
+}
 .fa-facebook {
     color: white;
     padding: 10px;
@@ -280,13 +288,56 @@ body {
 
 #logos {
  	background-color: transparent;
- 	width: 100%;
+ 	width: 230px;
+    display: inline-block;
+    float: right;
+    padding-top: 25px;
 }
 
 #discussion {
     background-color: pink;
     width: 350px;
-    height: 100px;
-    margin-top: 50px;
+    height: 200px;
+    margin-top: 20px;
+}
+
+#disc-title a {
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+}
+
+#disc-title {
+    padding-top: 75px;
+    text-align-last: center;
+}
+
+#sugbox {
+    background-color: mediumpurple;
+    width: 350px;
+    height: 170px;
+    margin-top: 20px;
+}
+
+#box-title {
+    text-align: center;
+    padding-top: 20px;
+    font-size: 20px;
+}
+
+#box-title a {
+    text-decoration: none;
+    color: white;
+}
+
+#click {
+    text-align: center;
+    padding-top: 20px;
+    font-size: 30px;
+}
+
+#click a {
+    text-decoration: none;
+    color: white;
 }
 
