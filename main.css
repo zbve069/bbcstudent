@@ -194,7 +194,6 @@ body {
     position: absolute;
 }
 
-
 #vid1 {
     background-color: white;
     width: 400px;
@@ -217,6 +216,86 @@ body {
     width: 550px;
     height: 225px;
     margin-top: 25px;
+    float: right;
+}
+
+#vid4 {
+    background-color: white;
+    width: 300px;
+    height: 450px;
+    margin-top: 50px;
+    margin-left: 5px;
+    float: left;
+}
+
+#vid5 {
+    background-color: white;
+    width: 300px;
+    height: 450px;
+    margin-top: 50px;
+    margin-left: 15px;
+    float: right;
+}
+
+#vid6 {
+    background-color: white;
+    width: 300px;
+    height: 200px;
+    margin-top: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 10px;
+    float: right;
+}
+
+#vid7 {
+    background-color: white;
+    width: 300px;
+    height: 200px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 10px;
+    float: right;
+}
+
+#vid8 {
+    background-color: white;
+    width: 300px;
+    height: 450px;
+    margin-top: 50px;
+    margin-left: 5px;
+    float: left;
+}
+
+#vid9 {
+    background-color: white;
+    width: 300px;
+    height: 450px;
+    margin-top: 50px;
+    margin-left: 15px;
+    float: right;
+}
+
+#vid10 {
+    background-color: white;
+    width: 300px;
+    height: 200px;
+    margin-top: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 10px;
+    float: right;
+}
+
+#vid11 {
+    background-color: white;
+    width: 300px;
+    height: 200px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 10px;
     float: right;
 }
 
@@ -341,3 +420,32 @@ body {
     color: white;
 }
 
+#guideline {
+    background-color: transparent;
+    width: 990px;
+    height: 100px;
+    float: left;
+}
+
+#guide-title {
+    margin-top: 5.5px;
+    padding: 5.5px 14px 12px 10px;
+    float: left;
+    font-size: 24px;
+    font-family: Helvetica, Arial, sans-serif;
+    color: dimgray;
+    font-weight: 400; 
+    position:absolute;
+}
+
+#guide-menu a {
+    text-decoration: none;
+    color: white;
+}
+
+#guide-menu {
+    float: left;
+    padding: 5.5px 14px 12px 10px;
+    width: 980px;
+    position: absolute;
+}
