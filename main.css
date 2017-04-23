@@ -759,19 +759,21 @@ body {
     float: left;
     color: black; 
     display: block;
+    margin-top: -10px;
 }
 
 #vid1-video {
-    margin-top: 50px;
-    margin-left: 50px;
+    margin-top: 20px;
+    margin-left: 100px;
     display:block;
     float:left;
 }
 
 #vid1-content {
     font-family: Helvetica, Arial, sans-serif;
-    font-size: 20px;
-    float: right;
+    font-size: 12pt;
+    width: 950px;
+    margin-top: 555px;
 }
 
 #vid2-title {
@@ -780,17 +782,84 @@ body {
     float: left;
     color: black;
     display: block;
+    margin-top: -10px;
 }
 
 #vid2-video {
-    margin-top: 50px;
-    margin-left: 50px;
+    margin-top: 20px;
+    margin-left: 100px;
     display:block;
     float:left;
 }
 
 #vid2-content {
     font-family: Helvetica, Arial, sans-serif;
-    font-size: 20px;
+    font-size: 12pt;
+    width: 950px;
+    margin-top: 600px;
+}
+
+#vidleft {
+    width: 950px;
+    height: 1000px;
+    float: left;
+    margin-top: 20px;
+    padding: 5.5px 18px 12px 10px;
+}
+
+#share {
+    width: 950px;
+    height: 50px;
+    float: left;
+    padding-bottom: 15px;
+    border-bottom: 2px solid #bfbfbf;
+}
+
+#icons img {
+    height: 75%;
+    margin-top: 20px;
     float: right;
+}
+
+#info {
+    width:400px;
+    float: left;
+    margin-top:30px;
+    font-size: 13pt;
+    color: dimgray;
+}
+
+#vidright {
+    width: 370px;
+    float: right;
+    margin-top: 20px;
+    margin-right: 15px;
+    background-color: #E7E8E1;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+
+#comments-title {
+    font-size: 25px;
+    color: dimgray;
+    padding-top:5px;
+}
+
+#comment {
+    background-color: white;
+    padding: 10px;
+    margin-top: 10px;
+    font-size: 12pt;
+    color: #202020;   
+}
+
+#new input {
+    background-color: white;
+    padding: 10px;
+    margin-top: 10px;
+    font-size: 12pt;
+    color: #202020;
+    width: 100%;
+    padding-bottom: 100px;
 }
